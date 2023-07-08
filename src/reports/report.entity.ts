@@ -21,6 +21,9 @@ export class Report {
   year: number;
 
   @Column()
+  lng: number;
+
+  @Column()
   lat: number;
 
   @Column()
